@@ -16,7 +16,7 @@ const workExperienceData = [
     {
         number: 2,
         title: 'Web Developer Intern',
-        company: 'Neuro Computation Lab, NCAI, NEDUET',
+        company: 'NCL, NEDUET',
         dates: 'Sep, 22 - Oct, 22',
         description: 'Various frontend tasks were accomplished using React.js and APIs were built using GoLang, and the internship was completed successfully.',
         stack: 'HTML, CSS, JavaScript, React.js, GoLang',
@@ -82,8 +82,8 @@ const WorkExperience = () => {
                                     <FaCalendar className="text-blue-500 mx-1 text-lg sm:text-xl" />
                                     <p className="text-gray-400 text-md sm:text-lg">{experience.dates}</p>
                                 </span>
-                                <p className="mt-2 text-md sm:text-lg">{experience.description}</p>
-                                <p className="text-sm sm:text-md">Stack: {experience.stack}</p>
+                                <p className="mt-2 text-md text-justify sm:text-lg">{experience.description}</p>
+                                <p className="text-sm text-red-500 text-bold sm:text-md">Stack: {experience.stack}</p>
                                 <div className='mt-5'>
                                     <a href={experience.link} target='_blank' rel="noopener noreferrer" className="bg-gray-700 hover:bg-gray-500 text-white font-semibold px-4 py-2 rounded-lg mt-4 text-sm sm:text-base">
                                         Visit {experience.shortname}

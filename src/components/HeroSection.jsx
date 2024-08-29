@@ -40,7 +40,7 @@ const HeroSection = ({ isNavbarOpen }) => {
                 hidden: { opacity: 0, x: -100 },
                 visible: { opacity: 1, x: 0, transition: { duration: 1 } }
             }}
-            className="mt-10 mb-20"
+            className="mt-10 lg:mb-20 mb-2"
         >
             <div className="flex flex-col lg:flex-row justify-between items-center">
                 <div className="w-full lg:w-2/3 max-w-5xl mb-8 sm:mb-4 lg:mb-0 lg:mr-12 lg:ml-4">
