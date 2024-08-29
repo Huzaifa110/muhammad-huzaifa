@@ -73,7 +73,7 @@ const HeroSection = ({ isNavbarOpen }) => {
                     </p>
                     <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center space-y-6 sm:space-y-0 sm:space-x-6 mb-8 lg:mb-12 mx-4 px-4">
                         <a
-                            href='https://drive.google.com/uc?export=download&id=1qVdIkCSaxr6vBjN8Bbmbnxz7M4fVP93q'
+                            href='https://drive.google.com/uc?export=download&id=1qJKXRvJ7oBWicqqWcLNw9fS6r8wbN3Qw'
                             download
                             target='_blank'
                             className="bg-gray-700 text-white hover:bg-gray-500 py-2 px-6 rounded-full text-lg lg:m-5 font-semibold transition duration-300 ease-in-out whitespace-nowrap sm:w-auto text-center"
