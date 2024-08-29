@@ -35,7 +35,7 @@ const Navbar = ({ onToggle }) => {
           {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </button>
       </div>
-      <div className={`absolute top-16 left-0 w-full bg-white shadow-lg md:hidden z-40 transition-transform duration-500 ease-in-out ${isOpen ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-full pointer-events-none'}`}>
+      <div className={`absolute top-16 left-0 w-full bg-gray-900 shadow-lg md:hidden z-40 transition-transform duration-500 ease-in-out ${isOpen ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-full pointer-events-none'}`}>
         <div className="flex flex-col items-center space-y-4 p-4">
           <a href="#experience" className="text-white hover:text-gray-500" onClick={toggleMenu}>Experience</a>
           <a href="#education" className="text-white hover:text-gray-500" onClick={toggleMenu}>Education</a>
