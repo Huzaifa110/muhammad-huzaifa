@@ -23,12 +23,18 @@ const skillsData = [
     },
     {
         number: 4,
-        title: 'Other Skills',
-        skills: ['WordPress', 'Git', 'RESTful APIs', 'Machine Learning', 'Software Testing', 'MS Office', 'Power BI', 'Expertise in Mathematics', 'Documentation'],
-        show: 'showOtherSkills',
+        title: 'SQA (Manual)',
+        skills: ['Test Plan', 'Test Scenarios', 'Test Cases', 'Test Reporting', 'Postman'],
+        show: 'showSQASkills',
     },
     {
         number: 5,
+        title: 'Other Skills',
+        skills: ['WordPress', 'Git', 'RESTful APIs', 'Machine Learning', 'MS Office', 'Power BI', 'Expertise in Mathematics', 'Documentation'],
+        show: 'showOtherSkills',
+    },
+    {
+        number: 6,
         title: 'Soft Skills',
         skills: ['Effective Communication', 'Time Management', 'Team Collaboration', 'Problem Solving'],
         show: 'showSoftSkills',
@@ -40,6 +46,7 @@ const SkillsSection = () => {
         showFrontendSkills: false,
         showBackendSkills: false,
         showDatabaseSkills: false,
+        showSQASkills: false,
         showOtherSkills: false,
         showSoftSkills: false,
     });

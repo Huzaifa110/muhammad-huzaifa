@@ -18,6 +18,8 @@ import mlImg from '../assets/images/ml.PNG';
 import mlVideo from '../assets/videos/ml.mp4';
 import foodappImg from '../assets/images/foodapp.PNG';
 import foodappVideo from '../assets/videos/foodapp.mp4';
+import sqaImg from '../assets/images/sqa.PNG';
+import sqaVideo from '../assets/videos/sqa.mp4'
 
 const projects = [
     {
@@ -139,6 +141,18 @@ const projects = [
         hasGithubLink: false,
         category: 'PowerBi',
         description: 'A Power BI dashboard displaying visuals of the data of a store.'
+    },
+    {
+        id: 11,
+        title: 'SQA Projects',
+        image: sqaImg,
+        videoSrc: sqaVideo,
+        githubLink: 'https://github.com/Huzaifa110/SQA-Projects/',
+        liveLink: '',
+        hasLiveLink: false,
+        hasGithubLink: true,
+        category: 'SQA',
+        description: 'Test Cases for a Web Application "Book Studio" and a "Mobile App" were created and executed. Test Scenarios for Login, Signup screens, along with scenarios of big softwares like WhatsApp are also created.'
     },
 ];
 
