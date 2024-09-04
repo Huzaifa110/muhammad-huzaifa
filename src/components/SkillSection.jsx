@@ -6,7 +6,7 @@ const skillsData = [
     {
         number: 1,
         title: 'Frontend Development',
-        skills: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Bootstrap', 'Tailwind CSS'],
+        skills: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Next.js', 'Bootstrap', 'Tailwind CSS', 'AceternityUI'],
         show: 'showFrontendSkills',
     },
     {

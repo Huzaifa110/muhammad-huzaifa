@@ -19,71 +19,25 @@ import mlVideo from '../assets/videos/ml.mp4';
 import foodappImg from '../assets/images/foodapp.PNG';
 import foodappVideo from '../assets/videos/foodapp.mp4';
 import sqaImg from '../assets/images/sqa.PNG';
-import sqaVideo from '../assets/videos/sqa.mp4'
+import sqaVideo from '../assets/videos/sqa.mp4';
+import skillboostImg from '../assets/images/skillboost.PNG';
+import skillboostVideo from '../assets/videos/skillboost.mp4';
 
 const projects = [
     {
         id: 1,
-        title: 'Job Board',
-        image: jobboardImg,
-        videoSrc: jobboardVideo,
-        githubLink: 'https://github.com/Huzaifa110/JobBoard',
-        liveLink: '',
-        hasLiveLink: false,
+        title: 'Skill Boost',
+        image: skillboostImg,
+        videoSrc: skillboostVideo,
+        githubLink: 'https://github.com/Huzaifa110/skillboost',
+        liveLink: 'https://main--roaring-stardust-690a30.netlify.app/',
+        hasLiveLink: true,
         hasGithubLink: true,
-        category: 'MERN',
-        description: "A Job Board built using MERN Stack, with user authentication system, displaying all jobs, search functionality, and an additional post job functionality for employer's account."
+        category: 'Next',
+        description: "A frontend Web Application named Skill Boost, offering technical courses build using Next.js and Aceternity UI."
     },
     {
         id: 2,
-        title: 'Post Insight',
-        image: postinsightImg,
-        videoSrc: postinsightVideo,
-        githubLink: 'https://github.com/Huzaifa110/PostInsight',
-        liveLink: '',
-        hasLiveLink: false,
-        hasGithubLink: true,
-        category: 'Django',
-        description: "A Posting app built using Django, with user authentication system, displaying all posts, add post with an account, and edit and delete user's own post."
-    },
-    {
-        id: 3,
-        title: 'Weather Update',
-        image: weatherImg,
-        videoSrc: weatherVideo,
-        githubLink: 'https://github.com/Huzaifa110/mosamkikhabar',
-        liveLink: 'https://huzaifa110.github.io/mosamkikhabar/',
-        hasLiveLink: true,
-        hasGithubLink: true,
-        category: 'React',
-        description: "A React app displaying weather information of countless cities using a public API."
-    },
-    {
-        id: 4,
-        title: 'Basic Portfolio',
-        image: portfolioImg,
-        videoSrc: portfolioVideo,
-        githubLink: 'https://github.com/Huzaifa110/project',
-        liveLink: 'https://huzaifa110.github.io/project/',
-        hasLiveLink: true,
-        hasGithubLink: true,
-        category: 'HTML & CSS',
-        description: 'A basic portfolio website, built using HTML and CSS.'
-    },
-    {
-        id: 5,
-        title: 'Matrix Calculator',
-        image: matrixImg,
-        videoSrc: matrixVideo,
-        githubLink: 'https://github.com/Huzaifa110/MatrixCalculator',
-        liveLink: '',
-        hasLiveLink: false,
-        hasGithubLink: true,
-        category: 'Python',
-        description: 'A GUI-based Matrix Calculator built using Python and the tkinter library for the GUI.'
-    },
-    {
-        id: 6,
         title: 'Food Ordering App',
         image: foodappImg,
         videoSrc: foodappVideo,
@@ -95,7 +49,68 @@ const projects = [
         description: 'A food ordering app built using MERN Stack, with complete user authentication, and all the data being fetched from a MongoDB cluster.'
     },
     {
+        id: 3,
+        title: 'Job Board',
+        image: jobboardImg,
+        videoSrc: jobboardVideo,
+        githubLink: 'https://github.com/Huzaifa110/JobBoard',
+        liveLink: '',
+        hasLiveLink: false,
+        hasGithubLink: true,
+        category: 'MERN',
+        description: "A Job Board built using MERN Stack, with user authentication system, displaying all jobs, search functionality, and an additional post job functionality for employer's account."
+    },
+    {
+        id: 4,
+        title: 'Post Insight',
+        image: postinsightImg,
+        videoSrc: postinsightVideo,
+        githubLink: 'https://github.com/Huzaifa110/PostInsight',
+        liveLink: '',
+        hasLiveLink: false,
+        hasGithubLink: true,
+        category: 'Django',
+        description: "A Posting app built using Django, with user authentication system, displaying all posts, add post with an account, and edit and delete user's own post."
+    },
+    {
+        id: 5,
+        title: 'Weather Update',
+        image: weatherImg,
+        videoSrc: weatherVideo,
+        githubLink: 'https://github.com/Huzaifa110/mosamkikhabar',
+        liveLink: 'https://huzaifa110.github.io/mosamkikhabar/',
+        hasLiveLink: true,
+        hasGithubLink: true,
+        category: 'React',
+        description: "A React app displaying weather information of countless cities using a public API."
+    },
+    {
+        id: 6,
+        title: 'Basic Portfolio',
+        image: portfolioImg,
+        videoSrc: portfolioVideo,
+        githubLink: 'https://github.com/Huzaifa110/project',
+        liveLink: 'https://huzaifa110.github.io/project/',
+        hasLiveLink: true,
+        hasGithubLink: true,
+        category: 'HTML & CSS',
+        description: 'A basic portfolio website, built using HTML and CSS.'
+    },
+    {
         id: 7,
+        title: 'Matrix Calculator',
+        image: matrixImg,
+        videoSrc: matrixVideo,
+        githubLink: 'https://github.com/Huzaifa110/MatrixCalculator',
+        liveLink: '',
+        hasLiveLink: false,
+        hasGithubLink: true,
+        category: 'Python',
+        description: 'A GUI-based Matrix Calculator built using Python and the tkinter library for the GUI.'
+    },
+    
+    {
+        id: 8,
         title: 'Restaurant Web Page',
         image: eatImg,
         videoSrc: eatVideo,
@@ -107,7 +122,7 @@ const projects = [
         description: 'A basic React application displaying dishes categorically.'
     },
     {
-        id: 8,
+        id: 9,
         title: 'iCoder',
         image: bootstrapImg,
         videoSrc: bootstrapVideo,
@@ -119,7 +134,7 @@ const projects = [
         description: 'A responsive technology blog posting site built using HTML, CSS, and Bootstrap.'
     },
     {
-        id: 9,
+        id: 10,
         title: 'Weather Predictor',
         image: mlImg,
         videoSrc: mlVideo,
@@ -131,7 +146,7 @@ const projects = [
         description: 'A Machine Learning-based Weather Predictor app, predicting weather summary by taking different inputs, using three algorithms: Logistic Regression, Random Forest Classifier, and Multi-Layer Perceptron. The GUI is built using React.js and the backend functionality of calling models on the GUI is done using Node.js.'
     },
     {
-        id: 10,
+        id: 11,
         title: 'Power Bi Dashboard',
         image: powerbiImg,
         videoSrc: powerbiVideo,
@@ -143,7 +158,7 @@ const projects = [
         description: 'A Power BI dashboard displaying visuals of the data of a store.'
     },
     {
-        id: 11,
+        id: 12,
         title: 'SQA Projects',
         image: sqaImg,
         videoSrc: sqaVideo,
