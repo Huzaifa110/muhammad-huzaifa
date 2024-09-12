@@ -22,6 +22,8 @@ import sqaImg from '../assets/images/sqa.PNG';
 import sqaVideo from '../assets/videos/sqa.mp4';
 import skillboostImg from '../assets/images/skillboost.PNG';
 import skillboostVideo from '../assets/videos/skillboost.mp4';
+import medicalDashboardImg from '../assets/images/medicaldashboard.PNG';
+import medicalDashboardVideo from '../assets/videos/medicaldashboard.mp4';
 
 const projects = [
     {
@@ -168,6 +170,18 @@ const projects = [
         hasGithubLink: true,
         category: 'SQA',
         description: 'Test Cases for a Web Application "Book Studio" and a "Mobile App" were created and executed. Test Scenarios for Login, Signup screens, along with scenarios of big softwares like WhatsApp are also created.'
+    },
+    {
+        id: 12,
+        title: 'Medical Dashboard',
+        image: medicalDashboardImg,
+        videoSrc: medicalDashboardVideo,
+        githubLink: 'https://github.com/Huzaifa110/frontendtask/',
+        liveLink: 'https://huzaifa110.github.io/frontendtask/',
+        hasLiveLink: true,
+        hasGithubLink: true,
+        category: 'React',
+        description: 'Given a Figma design, a medical dashboard page frontend build using React.js, different statistics were shown using different types of graphs with Chart.js, responsive for every screen sizes.'
     },
 ];
 
