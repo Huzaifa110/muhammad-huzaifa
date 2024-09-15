@@ -172,7 +172,7 @@ const projects = [
         description: 'Test Cases for a Web Application "Book Studio" and a "Mobile App" were created and executed. Test Scenarios for Login, Signup screens, along with scenarios of big softwares like WhatsApp are also created.'
     },
     {
-        id: 12,
+        id: 13,
         title: 'Medical Dashboard',
         image: medicalDashboardImg,
         videoSrc: medicalDashboardVideo,
