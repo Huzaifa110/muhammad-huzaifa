@@ -24,6 +24,8 @@ import skillboostImg from '../assets/images/skillboost.PNG';
 import skillboostVideo from '../assets/videos/skillboost.mp4';
 import medicalDashboardImg from '../assets/images/medicaldashboard.PNG';
 import medicalDashboardVideo from '../assets/videos/medicaldashboard.mp4';
+import bookAPIImage from '../assets/images/bookapi.PNG';
+import bookAPIVideo from '../assets/videos/booksapi.mp4';
 
 const projects = [
     {
@@ -182,6 +184,18 @@ const projects = [
         hasGithubLink: true,
         category: 'React',
         description: 'Given a Figma design, a medical dashboard page frontend build using React.js, different statistics were shown using different types of graphs with Chart.js, responsive for every screen sizes.'
+    },
+    {
+        id: 14,
+        title: 'Books API Testing',
+        image: bookAPIImage,
+        videoSrc: bookAPIVideo,
+        githubLink: '',
+        liveLink: '',
+        hasLiveLink: false,
+        hasGithubLink: false,
+        category: 'Postman (API Testing)',
+        description: 'API Testing of public Book API was conducted using Postman.'
     },
 ];
 
