@@ -95,11 +95,11 @@ const EducationSection = () => {
                                     </svg>
                                     <p className="text-lg font-semibold text-red-500">{education.grade}</p>
                                 </div>
-                                <div className='mt-5'>
+                                {/* <div className='mt-5'>
                                     <a href={education.link} target='_blank' rel="noopener noreferrer" className="bg-gray-700 hover:bg-gray-500 text-white font-semibold px-4 py-2 rounded-lg mt-4 text-sm sm:text-base">
                                         Visit {education.shortname}
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     ))}

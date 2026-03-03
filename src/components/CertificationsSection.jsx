@@ -1,37 +1,62 @@
 import React, { useEffect, useRef } from 'react';
-import { FaNodeJs, FaWordpress, FaReact, FaPython, FaJava, FaGit } from 'react-icons/fa';
+import { FaNodeJs, FaWordpress, FaReact, FaPython, FaRobot, FaPlug, FaJava, FaGit, FaHandshake, FaBug, FaDatabase } from 'react-icons/fa';
 import { motion, useAnimation } from 'framer-motion';
 
 const certifications = [
+    // {
+    //     title: "MERN Stack",
+    //     organization: "WeboPedia",
+    //     icon: <FaBug className="text-5xl text-green-500" />,
+    // },
+    // {
+    //     title: "Frontend Development",
+    //     organization: "Meta",
+    //     icon: <FaReact className="text-5xl text-blue-500" />,
+    // },
+    // {
+    //     title: "Python for AI, Data Science, and Development",
+    //     organization: "IBM",
+    //     icon: <FaPython className="text-5xl text-blue-500" />,
+    // },
+    // {
+    //     title: "WordPress Development",
+    //     organization: "DigiSkills",
+    //     icon: <FaWordpress className="text-5xl text-gray-700" />,
+    // },
+    // {
+    //     title: "API Testing with Postman",
+    //     organization: "Tigran Ter-Karapetyants",
+    //     icon: <FaJava className="text-5xl text-red-500" />,
+    // },
     {
-        title: "MERN Stack",
-        organization: "WeboPedia",
-        icon: <FaNodeJs className="text-5xl text-green-500" />,
-    },
-    {
-        title: "Frontend Development",
-        organization: "Meta",
-        icon: <FaReact className="text-5xl text-blue-500" />,
-    },
-    {
-        title: "Python for AI, Data Science, and Development",
-        organization: "IBM",
-        icon: <FaPython className="text-5xl text-blue-500" />,
-    },
-    {
-        title: "WordPress Development",
-        organization: "DigiSkills",
-        icon: <FaWordpress className="text-5xl text-gray-700" />,
+        title: "SQL For Testers",
+        organization: "LinkedIn",
+        icon: <FaDatabase className="text-5xl text-orange-500" />,
     },
     {
         title: "API Testing with Postman",
         organization: "Tigran Ter-Karapetyants",
-        icon: <FaJava className="text-5xl text-red-500" />,
+        icon: <FaPlug className="text-5xl text-red-500" />,
+    },
+    {
+        title: "AI For Software Testers",
+        organization: "LinkedIn",
+        icon: <FaRobot className="text-5xl text-red-500" />,
+    },
+    {
+        title: "Python",
+        organization: "IBM",
+        icon: <FaPython className="text-5xl text-blue-500" />,
     },
     {
         title: "Version Control",
         organization: "Meta",
         icon: <FaGit className="text-5xl text-orange-500" />,
+    },
+    {
+        title: "Communication Skills",
+        organization: "DigiSkills",
+        icon: <FaHandshake className="text-5xl text-orange-500" />,
     },
 ];
 

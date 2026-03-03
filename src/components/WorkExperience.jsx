@@ -5,13 +5,22 @@ import { motion, useAnimation } from 'framer-motion';
 const workExperienceData = [
     {
         number: 1,
-        title: 'Web Developer Intern',
-        company: 'CodSoft',
-        dates: 'Sep, 23 - Oct, 23',
-        description: 'Various development tasks from basic frontend tasks to complex MERN stack tasks were accomplished and the internship was completed successfully.',
+        title: 'SQA Engineer (Tier 1)',
+        company: 'TRAFiX LLC, Karachi',
+        dates: 'Oct, 24 - Present',
+        description: [
+            'Analyze product requirements and technical specifications to clearly understand new features and testing scope.',
+            'Create comprehensive test cases and QA documentation to ensure proper coverage and traceability of business requirements.',
+            'Perform various testing activities including Smoke, Functional, Regression, and Backward Compatibility testing across different releases.',
+            'Work closely with the development team by logging, tracking, and prioritizing defects in Azure DevOps to ensure timely resolution of issues.',
+            'Conduct both client-side and server-side testing to verify smooth interaction between frontend and backend components.',
+            'Participate in Agile ceremonies such as daily stand-ups and sprint planning to stay aligned with the team’s development and testing goals.',
+            'Handle and verify production support tickets through Zendesk, ensuring quick responses and maintaining user satisfaction.',
+            'Prepare release notes for tested items, summarize important updates and ensure all relevant details are documented.',
+        ],
         stack: 'HTML, CSS, JavaScript, React.js, MERN',
         link: 'https://www.codsoft.in/',
-        shortname: 'CodSoft'
+        shortname: 'TRAFiX'
     },
     {
         number: 2,
@@ -82,17 +91,30 @@ const WorkExperience = () => {
                                     <FaCalendar className="text-blue-500 mx-1 text-lg sm:text-xl" />
                                     <p className="text-gray-400 text-md sm:text-lg">{experience.dates}</p>
                                 </span>
-                                <p className="mt-2 text-md text-justify sm:text-lg">{experience.description}</p>
-                                <p className="text-sm text-red-500 text-bold sm:text-md">Stack: {experience.stack}</p>
-                                <div className='mt-5'>
+                                {/* <p className="mt-2 text-md text-justify sm:text-lg">{experience.description}</p> */}
+                                {/* <ul className="mt-2 list-disc list-inside text-md sm:text-lg space-y-1">
+                                    {experience.description.map((point, index) => (
+                                        <li key={index}>{point}</li>
+                                    ))}
+                                </ul> */}
+                                <ul className="mt-2 list-disc list-inside text-md sm:text-lg space-y-1">
+                                    {(Array.isArray(experience.description)
+                                        ? experience.description
+                                        : [experience.description]
+                                    ).map((point, index) => (
+                                        <li key={index}>{point}</li>
+                                    ))}
+                                </ul>
+                                {/* <p className="text-sm text-red-500 text-bold sm:text-md">Stack: {experience.stack}</p> */}
+                                {/* <div className='mt-5'>
                                     <a href={experience.link} target='_blank' rel="noopener noreferrer" className="bg-gray-700 hover:bg-gray-500 text-white font-semibold px-4 py-2 rounded-lg mt-4 text-sm sm:text-base">
                                         Visit {experience.shortname}
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     ))}
-                </div> 
+                </div>
             </div>
         </motion.div>
     );
