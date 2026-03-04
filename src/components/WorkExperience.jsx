@@ -102,7 +102,14 @@ const WorkExperience = () => {
                                         ? experience.description
                                         : [experience.description]
                                     ).map((point, index) => (
-                                        <li key={index}>{point}</li>
+                                        // <li key={index} >{point}</li>
+                                        <li
+                                            key={index}
+                                            className="flex items-start"
+                                        >
+                                            <span className="mr-2 text-blue-500 font-bold">➤</span>
+                                            <span>{point}</span>
+                                        </li>
                                     ))}
                                 </ul>
                                 {/* <p className="text-sm text-red-500 text-bold sm:text-md">Stack: {experience.stack}</p> */}

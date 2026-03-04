@@ -73,14 +73,14 @@ const HeroSection = ({ isNavbarOpen }) => {
                         An industrious SQA Engineer dedicated to delivering high-quality and reliable software by applying strong testing methodologies, defect analysis, and quality assurance practices.
                     </p>
                     <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center space-y-6 sm:space-y-0 sm:space-x-6 mb-8 lg:mb-12 mx-4 px-4">
-                        {/* <a
-                            href='https://drive.google.com/uc?export=download&id=1xuN2kx5B2Q0gl8VztiY3WGRnBnffL2Wn'
+                        <a
+                            href='https://drive.google.com/uc?export=download&id=1M-kpqTOKurwfYx5YatHhhtEZy6m9Gd_G'
                             download
                             target='_blank'
                             className="bg-gray-700 text-white hover:bg-gray-500 py-2 px-6 rounded-full text-lg lg:m-5 font-semibold transition duration-300 ease-in-out whitespace-nowrap sm:w-auto text-center"
                         >
                             Download Resume
-                        </a> */}
+                        </a>
                         <div className="flex flex-col sm:flex-row flex-wrap items-center space-y-4 sm:space-y-0 sm:space-x-6 justify-center w-full sm:w-auto">
                             <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center space-y-4 sm:space-y-0 space-x-0 sm:space-x-6 w-full sm:w-auto">
                                 <div className="flex flex-col items-center sm:flex-row justify-center space-x-2 sm:space-x-4">
