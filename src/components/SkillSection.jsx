@@ -3,48 +3,7 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import { motion, useAnimation } from 'framer-motion';
 
 const skillsData = [
-    // {
-    //     number: 1,
-    //     title: 'Technical Development',
-    //     skills: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Next.js', 'Bootstrap', 'Tailwind CSS', 'AceternityUI', 'Figma to React'],
-    //     show: 'showTechnicalSkills',
-    // },
-    // {
-    //     number: 1,
-    //     title: 'Technical Development',
-    //     skills: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Next.js', 'Bootstrap', 'Tailwind CSS', 'AceternityUI', 'Figma to React'],
-    //     show: 'showTechnicalSkills',
-    // },
-    // {
-    //     number: 2,
-    //     title: 'Documentation Development',
-    //     skills: ['Node.js', 'Express.js', 'Python (Django)', 'GoLang', 'php'],
-    //     show: 'showDocumentationSkills',
-    // },
-    // {
-    //     number: 3,
-    //     title: 'Management',
-    //     skills: ['MySQL', 'MongoDB'],
-    //     show: 'showManagementSkills',
-    // },
-    // {
-    //     number: 4,
-    //     title: 'SQA (Manual)',
-    //     skills: ['Test Plan', 'Test Scenarios', 'Test Cases', 'Test Reporting', 'Postman'],
-    //     show: 'showSQASkills',
-    // },
-    // {
-    //     number: 5,
-    //     title: 'Other Skills',
-    //     skills: ['WordPress', 'Git', 'RESTful APIs', 'Machine Learning', 'MS Office', 'Power BI', 'Expertise in Mathematics', 'Documentation'],
-    //     show: 'showOtherSkills',
-    // },
-    // {
-    //     number: 6,
-    //     title: 'Soft Skills',
-    //     skills: ['Effective Communication', 'Time Management', 'Team Collaboration', 'Problem Solving'],
-    //     show: 'showSoftSkills',
-    // },
+    
     {
         number: 1,
         title: 'Techincal Skills',
@@ -60,13 +19,13 @@ const skillsData = [
     {
         number: 3,
         title: 'Project Management',
-        skills: ['Azure DevOps'],
+        skills: ['Agile', 'Scrum', 'Sprint Planning', 'Task Management', 'Azure DevOps'],
         show: 'showManagementSkills',
     },
     {
         number: 4,
         title: 'Soft Skills',
-        skills: ['Effective Communication', 'Time Management', 'Team Collaboration', 'Problem Solving'],
+        skills: ['Effective Communication', 'Leadership', 'Time Management', 'Team Collaboration', 'Problem Solving'],
         show: 'showSoftSkills',
     },
     

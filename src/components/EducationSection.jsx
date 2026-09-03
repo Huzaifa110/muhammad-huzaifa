@@ -5,6 +5,15 @@ import { motion, useAnimation } from 'framer-motion';
 const educationData = [
     {
         number: 1,
+        title: 'MS - Artificial Intelligence',
+        institution: 'NED University, Karachi',
+        dates: 'Aug, 2026 - Present',
+        grade: 'CGPA: NA',
+        link: 'https://www.neduet.edu.pk/',
+        shortname: 'NEDUET'
+    },
+    {
+        number: 2,
         title: 'BE - Computer Systems Engineering',
         institution: 'NED University, Karachi',
         dates: 'Oct, 2020 - Aug, 2024',
@@ -13,7 +22,7 @@ const educationData = [
         shortname: 'NEDUET'
     },
     {
-        number: 2,
+        number: 3,
         title: 'HSC - Pre-Engineering (Intermediate) ',
         institution: 'Adamjee Govt. College',
         dates: 'Aug, 2018 - Apr, 2020',
@@ -22,7 +31,7 @@ const educationData = [
         shortname: 'Adamjee College'
     },
     {
-        number: 3,
+        number: 4,
         title: 'SSC - Science (Matriculation)',
         institution: 'RRBK School',
         dates: 'Mar, 2016 - Apr, 2018',
@@ -95,11 +104,6 @@ const EducationSection = () => {
                                     </svg>
                                     <p className="text-lg font-semibold text-red-500">{education.grade}</p>
                                 </div>
-                                {/* <div className='mt-5'>
-                                    <a href={education.link} target='_blank' rel="noopener noreferrer" className="bg-gray-700 hover:bg-gray-500 text-white font-semibold px-4 py-2 rounded-lg mt-4 text-sm sm:text-base">
-                                        Visit {education.shortname}
-                                    </a>
-                                </div> */}
                             </div>
                         </div>
                     ))}

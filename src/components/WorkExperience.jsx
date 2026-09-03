@@ -5,22 +5,23 @@ import { motion, useAnimation } from 'framer-motion';
 const workExperienceData = [
     {
         number: 1,
-        title: 'SQA Engineer (Tier 1)',
+        title: 'SQA Engineer (Tier II)',
         company: 'TRAFiX LLC, Karachi',
         dates: 'Oct, 24 - Present',
         description: [
-            'Analyze product requirements and technical specifications to clearly understand new features and testing scope.',
-            'Create comprehensive test cases and QA documentation to ensure proper coverage and traceability of business requirements.',
-            'Perform various testing activities including Smoke, Functional, Regression, and Backward Compatibility testing across different releases.',
-            'Work closely with the development team by logging, tracking, and prioritizing defects in Azure DevOps to ensure timely resolution of issues.',
-            'Conduct both client-side and server-side testing to verify smooth interaction between frontend and backend components.',
-            'Participate in Agile ceremonies such as daily stand-ups and sprint planning to stay aligned with the team’s development and testing goals.',
-            'Handle and verify production support tickets through Zendesk, ensuring quick responses and maintaining user satisfaction.',
-            'Prepare release notes for tested items, summarize important updates and ensure all relevant details are documented.',
+            'Analyze product requirements and technical specifications to understand new features, define the testing scope, and provide testing effort estimates', 'Plan and assign testing activities to QA resources based on testing scope, effort estimates, and deadlines',
+            'Review and prioritize test cases prepared by other QA resources, identify coverage gaps, and add missing test scenarios to ensure comprehensive testing','Create comprehensive test cases and QA documentation to ensure proper coverage and traceability of business requirements',
+            'Perform various testing activities including Smoke, Functional, Regression, and Backward Compatibility testing across different releases',
+            'Conduct both client-side and server-side testing to verify smooth interaction between frontend and backend components',
+            'Work closely with the development team by logging, tracking, and prioritizing defects in Azure DevOps to ensure timely resolution of issues',
+            'Coordinate with development and support teams as needed to facilitate smooth testing and issue resolution',
+            'Identify testing bottlenecks and communicate them to the Scrum Master to ensure timely escalation and resolution',
+            'Participate in Agile ceremonies such as daily stand-ups and sprint planning to stay aligned with the team’s development and testing goals',
+            'Handle and verify production support tickets through Zendesk, ensuring quick responses and maintaining user satisfaction',
+            'Update production tickets in a timely manner, ensuring accurate information transfer and effective communication with support teams handling client issues',
+            'Prepare release notes for tested items, summarize important updates and ensure all relevant details are documented',
+            'Lead and coordinate testing activities across multiple QA resources, delegate tasks based on scope and priorities, monitor progress, and ensure timely completion of testing deliverables',
         ],
-        stack: 'HTML, CSS, JavaScript, React.js, MERN',
-        link: 'https://www.codsoft.in/',
-        shortname: 'TRAFiX'
     },
     {
         number: 2,
@@ -28,9 +29,7 @@ const workExperienceData = [
         company: 'NCL, NEDUET',
         dates: 'Sep, 22 - Oct, 22',
         description: 'Various frontend tasks were accomplished using React.js and APIs were built using GoLang, and the internship was completed successfully.',
-        stack: 'HTML, CSS, JavaScript, React.js, GoLang',
-        link: 'https://nclab.neduet.edu.pk/',
-        shortname: 'NCL'
+        
     },
 ];
 
@@ -112,12 +111,6 @@ const WorkExperience = () => {
                                         </li>
                                     ))}
                                 </ul>
-                                {/* <p className="text-sm text-red-500 text-bold sm:text-md">Stack: {experience.stack}</p> */}
-                                {/* <div className='mt-5'>
-                                    <a href={experience.link} target='_blank' rel="noopener noreferrer" className="bg-gray-700 hover:bg-gray-500 text-white font-semibold px-4 py-2 rounded-lg mt-4 text-sm sm:text-base">
-                                        Visit {experience.shortname}
-                                    </a>
-                                </div> */}
                             </div>
                         </div>
                     ))}
