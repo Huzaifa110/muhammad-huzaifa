@@ -50,14 +50,24 @@ const HeroSection = ({ isNavbarOpen }) => {
                             <span>
                                 <Typewriter
                                     words={[
+                                        // 'am Muhammad Huzaifa.',
+                                        // 'am a Software Quality Assurance (SQA) Engineer.',
+                                        // 'find bugs before they become costly and impact users.',
+                                        // 'perform Smoke, Regression, Functional, and Backward Compatibility testings.',
+                                        // 'create Test Cases and Execute them.',
+                                        // 'attend Scrum meetings.',
+                                        // 'test frontend as well as backends.',
+                                        // 'prepare release notes and QA documentations.',
+
                                         'am Muhammad Huzaifa.',
                                         'am a Software Quality Assurance (SQA) Engineer.',
-                                        'perform Smoke, Regression, Functional, and Backward Compatibility testings.',
-                                        'find bugs.',
-                                        'create Test Cases and Execute them.',
-                                        'attend Scrum meetings.',
-                                        'test frontend as well as backends.',
-                                        'prepare release notes and QA documentations.',
+                                        'find bugs before they become costly and impact users.',
+                                        'break, test, and validate software to uncover what others miss.',
+                                        'design and execute test cases that challenge real-world scenarios.',
+                                        'perform rigorous Smoke, Functional, Regression, and Compatibility testing.',
+                                        'test across frontend, backend, and APIs to ensure end-to-end quality.',
+                                        'investigate defects, identify root causes, and help drive them to resolution.',
+                                        'help teams ship reliable, stable, and high-quality software.',
                                     ]}
                                     loop={0}
                                     cursor
@@ -74,7 +84,7 @@ const HeroSection = ({ isNavbarOpen }) => {
                     </p>
                     <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center space-y-6 sm:space-y-0 sm:space-x-6 mb-8 lg:mb-12 mx-4 px-4">
                         <a
-                            href='https://drive.google.com/uc?export=download&id=1Nbl18gAMxAcOD8qdvaxrcQjWdPEutKYv'
+                            href='https://drive.google.com/uc?export=download&id=1ELOPrq4nxPbmy5C9tj6PRzk6vDRIMT45'
                             download
                             target='_blank'
                             className="bg-gray-700 text-white hover:bg-gray-500 py-2 px-6 rounded-full text-lg lg:m-5 font-semibold transition duration-300 ease-in-out whitespace-nowrap sm:w-auto text-center"

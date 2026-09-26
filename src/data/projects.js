@@ -26,6 +26,8 @@ import medicalDashboardImg from '../assets/images/medicaldashboard.PNG';
 import medicalDashboardVideo from '../assets/videos/medicaldashboard.mp4';
 import bookAPIImage from '../assets/images/bookapi.PNG';
 import bookAPIVideo from '../assets/videos/booksapi.mp4';
+import testingAPIImage from '../assets/images/testingapi.png';
+import testingAPIVideo from '../assets/videos/testingapi.mp4';
 
 const projects = [
     {
@@ -42,19 +44,32 @@ const projects = [
     },
     {
         id: 2,
+        title: 'API Testing',
+        
+        image: testingAPIImage,
+        videoSrc: testingAPIVideo,
+        githubLink: 'https://github.com/Huzaifa110/postman-api-testing',
+        liveLink: '',
+        hasLiveLink: false,
+        hasGithubLink: true,
+        category: 'Postman (API Testing)',
+        description: 'API Testing covering almost every aspect of API Testing with both Postman and Newman command line tool was conducted on a public API.'
+    },
+    {
+        id: 3,
         title: 'Books API Testing',
         
         image: bookAPIImage,
         videoSrc: bookAPIVideo,
-        githubLink: '',
+        githubLink: 'https://github.com/Huzaifa110/book-api-testing',
         liveLink: '',
         hasLiveLink: false,
-        hasGithubLink: false,
+        hasGithubLink: true,
         category: 'Postman (API Testing)',
         description: 'API Testing of public Book API was conducted using Postman.'
     },
     {
-        id: 3,
+        id: 4,
         title: 'Skill Boost',
         image: skillboostImg,
         videoSrc: skillboostVideo,
@@ -66,7 +81,7 @@ const projects = [
         description: "A frontend Web Application named Skill Boost, offering technical courses build using Next.js and Aceternity UI."
     },
     {
-        id: 4,
+        id: 5,
         title: 'Food Ordering App',
         image: foodappImg,
         videoSrc: foodappVideo,
@@ -78,7 +93,7 @@ const projects = [
         description: 'A food ordering app built using MERN Stack, with complete user authentication, and all the data being fetched from a MongoDB cluster.'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Job Board',
         image: jobboardImg,
         videoSrc: jobboardVideo,
@@ -90,7 +105,7 @@ const projects = [
         description: "A Job Board built using MERN Stack, with user authentication system, displaying all jobs, search functionality, and an additional post job functionality for employer's account."
     },
     {
-        id: 6,
+        id: 7,
         title: 'Post Insight',
         image: postinsightImg,
         videoSrc: postinsightVideo,
@@ -102,7 +117,7 @@ const projects = [
         description: "A Posting app built using Django, with user authentication system, displaying all posts, add post with an account, and edit and delete user's own post."
     },
     {
-        id: 7,
+        id: 8,
         title: 'Weather Update',
         image: weatherImg,
         videoSrc: weatherVideo,
@@ -114,7 +129,7 @@ const projects = [
         description: "A React app displaying weather information of countless cities using a public API."
     },
     {
-        id: 8,
+        id: 9,
         title: 'Basic Portfolio',
         image: portfolioImg,
         videoSrc: portfolioVideo,
@@ -126,7 +141,7 @@ const projects = [
         description: 'A basic portfolio website, built using HTML and CSS.'
     },
     {
-        id: 9,
+        id: 10,
         title: 'Matrix Calculator',
         image: matrixImg,
         videoSrc: matrixVideo,
@@ -138,7 +153,7 @@ const projects = [
         description: 'A GUI-based Matrix Calculator built using Python and the tkinter library for the GUI.'
     },
     {
-        id: 10,
+        id: 11,
         title: 'Restaurant Web Page',
         image: eatImg,
         videoSrc: eatVideo,
@@ -150,7 +165,7 @@ const projects = [
         description: 'A basic React application displaying dishes categorically.'
     },
     {
-        id: 11,
+        id: 12,
         title: 'iCoder',
         image: bootstrapImg,
         videoSrc: bootstrapVideo,
@@ -162,7 +177,7 @@ const projects = [
         description: 'A responsive technology blog posting site built using HTML, CSS, and Bootstrap.'
     },
     {
-        id: 12,
+        id: 13,
         title: 'Weather Predictor',
         image: mlImg,
         videoSrc: mlVideo,
@@ -174,7 +189,7 @@ const projects = [
         description: 'A Machine Learning-based Weather Predictor app, predicting weather summary by taking different inputs, using three algorithms: Logistic Regression, Random Forest Classifier, and Multi-Layer Perceptron. The GUI is built using React.js and the backend functionality of calling models on the GUI is done using Node.js.'
     },
     {
-        id: 13,
+        id: 14,
         title: 'Power Bi Dashboard',
         image: powerbiImg,
         videoSrc: powerbiVideo,
@@ -186,7 +201,7 @@ const projects = [
         description: 'A Power BI dashboard displaying visuals of the data of a store.'
     },
     {
-        id: 14,
+        id: 15,
         title: 'Medical Dashboard',
         image: medicalDashboardImg,
         videoSrc: medicalDashboardVideo,
