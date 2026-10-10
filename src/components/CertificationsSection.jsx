@@ -29,9 +29,9 @@ const certifications = [
     //     icon: <FaJava className="text-5xl text-red-500" />,
     // },
     {
-        title: "SQL For Testers",
+        title: "Java: Automated API Testing with REST Assured",
         organization: "LinkedIn",
-        icon: <FaDatabase className="text-5xl text-orange-500" />,
+        icon: <FaJava className="text-5xl text-orange-500" />,
     },
     {
         title: "API Testing with Postman",
@@ -39,14 +39,14 @@ const certifications = [
         icon: <FaPlug className="text-5xl text-red-500" />,
     },
     {
+        title: "SQL For Testers",
+        organization: "LinkedIn",
+        icon: <FaDatabase className="text-5xl text-orange-500" />,
+    },
+    {
         title: "AI For Software Testers",
         organization: "LinkedIn",
         icon: <FaRobot className="text-5xl text-red-500" />,
-    },
-    {
-        title: "Python",
-        organization: "IBM",
-        icon: <FaPython className="text-5xl text-blue-500" />,
     },
     {
         title: "Version Control",
@@ -54,8 +54,8 @@ const certifications = [
         icon: <FaGit className="text-5xl text-orange-500" />,
     },
     {
-        title: "Communication Skills",
-        organization: "DigiSkills",
+        title: "How To Fix Bad Agile",
+        organization: "LinkedIn",
         icon: <FaHandshake className="text-5xl text-orange-500" />,
     },
 ];

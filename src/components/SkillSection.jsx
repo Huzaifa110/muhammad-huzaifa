@@ -7,7 +7,7 @@ const skillsData = [
     {
         number: 1,
         title: 'Techincal Skills',
-        skills: ['Manual Testing', 'Test Case Creation', 'Bug Tracking', 'Smoke Testing', 'Regression Testing', 'Functional Testing', 'API Testing', 'SQL', 'Python', 'Version Control'],
+        skills: ['Manual Testing', 'Test Case Creation', 'Bug Tracking', 'Smoke Testing', 'Regression Testing', 'Functional Testing', 'API Testing', 'SQL', 'Postman / REST Assured', 'Python', 'Version Control'],
         show: 'showTechnicalSkills',
     },
     {
